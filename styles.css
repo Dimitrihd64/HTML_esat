@@ -32,7 +32,7 @@ p {
 header {
     background: linear-gradient(45deg, #1A2C4E, #2A3C5E);
     color: #C0A060;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 2rem 0;
     text-align: center;
 }
@@ -45,19 +45,27 @@ main {
 
 section {
     margin-bottom: 3rem;
+    flex: 3;
 }
-
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 article {
     margin-bottom: 2rem;
 }
 
 aside {
     background-color: #FFFFFF;
-    border: 1px solid rgba(192,160,96,0.2);
+    border: 1px solid rgba(192, 160, 96, 0.2);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     padding: 1.25rem;
     margin-bottom: 3rem;
+    margin-top: 2rem;
+    flex:1;
+    height: auto;
+    align-self: flex-start;
 }
 
 footer {
@@ -76,3 +84,20 @@ footer a {
 footer a:hover {
     color: #F5E6D3;
 }
+.container {
+
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.article {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(140, 22, 22, 0.52);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    margin : 1rem;
+    flex: 3;
+}
+
+
