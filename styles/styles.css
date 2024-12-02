@@ -59,6 +59,15 @@ section {
 article {
   margin-bottom: 2rem;
 }
+article p,article h5{
+    margin-left: 2rem;
+    padding-right: 5rem;
+}
+img{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+}
 
 aside {
   background-color: #ffffff;
@@ -96,9 +105,9 @@ footer a:hover {
 }
 .article {
   background-color: #ffffff;
-  border: 1px solid rgba(140, 22, 22, 0.52);
+  border: 1px solid rgba(140, 22, 22, 0.212);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   padding: 1.25rem;
   margin: 1rem;
   flex: 3;
