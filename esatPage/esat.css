@@ -1,0 +1,72 @@
+body{
+    background-image: url("../addons/test-landing-id3 1.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center ;
+}
+.top-bar{
+     display:flex;
+    justify-content: space-around;
+}/*
+.top-bar img{
+    min-height: 20%;
+    min-width: 20%;
+    height: fit-content;
+    margin :auto;
+}
+@media (max-width: 768px) {
+    .top-bar img {
+        min-height: 35%;
+        min-width: 35%;
+    }
+}*/
+.top-bar img {
+    max-width: 35%;
+    height: auto;
+    margin: auto;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .top-bar img {
+        max-width: 20%;
+        height: auto;
+    }
+}
+.texts{
+    font-family: "Calibri Light";
+    margin: 8em 4em 0em 0em;
+    margin-left: 1em;
+    margin-inside: 1em;
+    margin-bottom:5em;
+}
+.text-1{
+    color: #EF7D00;
+    max-width: 77%;
+    font-size: 70px;
+}
+.text-2{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+
+}
+.text-3{
+    color: white;
+    font-size: 50px;
+}
+button{
+    background-color: #EF7D00;
+    border-radius: 15px;
+    font-size: 40px;
+    color:white;
+    margin-top: 1em;
+    padding:24px 36px 24px 36px;
+}
