@@ -1,4 +1,10 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri Light";
+}
+
+.main {
     background-image: url("../addons/test-landing-id3 1.jpg");
     background-repeat: no-repeat;
     display: flex;
@@ -9,24 +15,22 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: center ;
+    background-position: center;
 }
-.top-bar{
-     display:flex;
+
+.top-bar {
+    display: flex;
     justify-content: space-around;
-}/*
-.top-bar img{
-    min-height: 20%;
-    min-width: 20%;
-    height: fit-content;
-    margin :auto;
 }
-@media (max-width: 768px) {
-    .top-bar img {
-        min-height: 35%;
-        min-width: 35%;
-    }
-}*/
+
+.design-dev {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 5em;
+}
+
 .top-bar img {
     max-width: 35%;
     height: auto;
@@ -40,33 +44,78 @@ body{
         height: auto;
     }
 }
-.texts{
-    font-family: "Calibri Light";
+
+.texts {
     margin: 8em 4em 0em 0em;
     margin-left: 1em;
     margin-inside: 1em;
-    margin-bottom:5em;
+    margin-bottom: 5em;
 }
-.text-1{
+
+.orange {
     color: #EF7D00;
+}
+
+.white {
+    color: white;
+}
+.black{
+    color: black;
+}
+.text-1 {
     max-width: 77%;
     font-size: 70px;
 }
-.text-2{
-    font-size: 100px;
-    color: white;
-    font-weight: bold;
 
+.text-2 {
+    font-size: 100px;
+    font-weight: bold;
 }
-.text-3{
-    color: white;
+
+.text-3 {
     font-size: 50px;
 }
-button{
+
+button {
     background-color: #EF7D00;
     border-radius: 15px;
     font-size: 40px;
-    color:white;
     margin-top: 1em;
-    padding:24px 36px 24px 36px;
+    padding: 24px 36px 24px 36px;
 }
+
+.design-dev .texts .title {
+    font-size: 120px;
+    line-height: 0%;
+    font-weight: bold;
+    margin: 90px 0px;
+
+}
+.design-dev .texts .subtitle{
+    font-size: 55px;
+    margin-top: 0px;
+}
+/*
+.card .texts{
+    ;
+}
+.card .texts .orange{
+    font-size: 30px;
+}
+.card .texts .subtitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+.card{
+    background-color: #5a5856;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}*/
+
+
