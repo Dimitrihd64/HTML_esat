@@ -6,6 +6,9 @@ body{
     padding: 0;
     font-family: "Calibri Light";
 }
+h1{
+    font-size: 40px;
+}
 /*hiro*/
 .hiro {
     background-image: url("../addons/test-landing-id3 1.jpg");
@@ -17,7 +20,7 @@ body{
     background-position: center;
 }
 
-.texts {
+.hiro .texts {
     width: 85vw;
     margin: 0 1em 1em; /* Elimina márgenes innecesarios y ajusta solo el espacio inferior */
     margin-top: auto; /* Empuja este div hacia el final del contenedor */
@@ -39,7 +42,7 @@ body{
 }
 
 .hiro h1 {
-    font-size: 40px;
+
     margin: 1rem 0;
     line-height: 40px;
 }
@@ -60,6 +63,30 @@ body{
 }
 /*FIN HIRO*/
 
+
+/*Design-dev*/
+.design-dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.design-dev .images{
+    height: fit-content;
+    width: 90%;
+    margin: 1em;
+}
+.design-dev img{
+    width: 100%;
+}
+
+
+
+
+/*FIN Design-dev*/
 /*COLORS*/
 .orange {
     color: #EF7D00;
