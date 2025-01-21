@@ -1,15 +1,18 @@
 * {
     outline: 1px solid red;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: "Calibri Light";
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-/*hiro*/
+
+/*HIRO*/
 .hiro {
     background-image: url("../addons/test-landing-id3 1.jpg");
     display: flex;
@@ -26,6 +29,7 @@ h1{
     margin-top: auto; /* Empuja este div hacia el final del contenedor */
 }
 
+
 .top-bar {
     display: flex;
     justify-content: space-around;
@@ -37,12 +41,12 @@ h1{
 .top-bar img {
     width: 30vw;
 }
-.hiro h3{
+
+.hiro h3 {
     max-width: 70%;
 }
 
 .hiro h1 {
-
     margin: 1rem 0;
     line-height: 40px;
 }
@@ -50,17 +54,18 @@ h1{
 .hiro .text-3 {
     font-size: 20px;
 }
-.hiro button{
+
+.hiro button {
     background-color: #EF7D00;
     color: white;
     border: none;
-    margin:  1rem 0;
+    margin: 1rem 0;
     padding: 10px 20px;
     font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
-
 }
+
 /*FIN HIRO*/
 
 
@@ -68,25 +73,45 @@ h1{
 .design-dev {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
 }
 
+.design-dev .texts {
+    width: 85vw;
+    margin: 0 1em;
+    margin-top: 5em;
+}
 
-.design-dev .images{
+.design-dev h2 {
+    font-size: 20px;
+}
+
+.design-dev .images {
     height: fit-content;
     width: 90%;
     margin: 1em;
 }
-.design-dev img{
+
+.design-dev img {
     width: 100%;
 }
 
+.chevrons {
+    display: flex;
+    width: 85vw;
+    justify-content: end;
+}
 
+.chevrons img {
+    width: 48px;
+    margin: 0 1em;
+}
 
 
 /*FIN Design-dev*/
+
 /*COLORS*/
 .orange {
     color: #EF7D00;
