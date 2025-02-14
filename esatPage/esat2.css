@@ -79,8 +79,7 @@ h1 {
 }
 
 .design-dev .texts {
-    width: 85vw;
-    margin: 0 1em;
+    width: 90vw;
     margin-top: 5em;
 }
 
@@ -109,14 +108,37 @@ h1 {
     margin: 0 1em;
 }
 
-
 /*FIN Design-dev*/
 
-/*COLORS*/
+/*PRO-PER*/
+.pro-per {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-inline: 25px;
+    background-color: #EEF0F5;
+}
+.pro-per .texts {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.pro-per img {
+    height: 58vh;
+}
+/*FIN PRO-PER*/
+
+/*COLORS & MORE*/
 .orange {
     color: #EF7D00;
 }
 
 .white {
     color: white;
+}
+
+.no_bold {
+    font-weight: normal;
 }
